@@ -1,0 +1,41 @@
+type: UnitFactory
+
+health: 500
+size: 3
+itemCapacity: 30
+
+requirements: [
+    copper/100
+    lead/250
+    silicon/200
+    metaglass/140
+]
+
+plans: [
+    {
+        unit: mono
+        requirements: [
+            silicon/30
+            lead/15
+        ]
+        time: 1200
+    },
+    {
+        unit: invisibleflare
+        requirements: [
+            silicon/20
+            lead/20
+            titanium/10
+            invisible-matter/1
+        ]
+        time: 1400
+    }
+]
+
+category: units
+
+consumes: {
+    power: 2.5
+}
+
+research: command-center

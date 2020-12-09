@@ -1,0 +1,46 @@
+health: 500
+size: 2
+
+hasItems: true
+hasLiquids: true
+hasPower: true
+itemCapacity: 150
+liquidCapacity: 150
+
+requirements: [
+    copper/130
+    lead/130
+    graphite/250
+    silicon/200
+    titanium/140
+    thorium/125
+    surge-alloy/75
+    phase-fabric/50
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: surge-alloy
+                amount: 2
+            },
+            {
+                item: phase-fabric
+                amount: 3
+            },
+            metaglass/7
+            titanium/8
+        ]
+    }
+    liquid: {
+        liquid: cryofluid
+        amount: 0.7
+    }
+    power: 20
+}
+outputItem: invisible-matter/1
+craftTime: 90
+
+category: crafting
+research: alloy-smelter
