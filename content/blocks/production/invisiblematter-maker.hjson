@@ -21,14 +21,12 @@ requirements: [
 consumes: {
     items: {
         items: [
-            {
-                item: surge-alloy
-                amount: 2
-            },
-            {
-                item: phase-fabric
-                amount: 3
-            },
+
+surge-alloy/2
+
+
+phase-fabric/1
+
             metaglass/7
             titanium/8
         ]

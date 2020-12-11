@@ -7,8 +7,9 @@ health: 85
 flying: true
 engineOffset: 5.5
 range: 140
-payloadCapacity: 100000
+payloadCapacity: 100
 engineOffset: 4
+engineSize: 0
 buildSpeed: 5
 weapons: [
   {
