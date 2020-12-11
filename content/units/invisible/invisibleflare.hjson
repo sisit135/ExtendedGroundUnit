@@ -1,4 +1,4 @@
-type: flying
+type: payload
 speed: 4.5
 accel: 0.08
 drag: 0.01
@@ -6,6 +6,7 @@ health: 85
 flying: true
 engineOffset: 5.5
 range: 140
+payloadCapacity: 1000
 weapons: [
   {
     name: none
