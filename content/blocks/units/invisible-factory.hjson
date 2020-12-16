@@ -20,6 +20,16 @@ plans: [
         ]
         time: 1200
     },
+        {
+        unit: neutron-flare
+        requirements: [
+            silicon/20
+            metaglass/20
+            titanium/10
+
+        ]
+        time: 1200
+    },
     {
         unit: invisibleflare
         requirements: [
