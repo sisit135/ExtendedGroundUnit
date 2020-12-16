@@ -1,27 +1,33 @@
 type: flying
-speed: 2.5
+speed: 3.5
 accel: 0.08
-mineTier: 5
+mineTier: 1
 drag: 0.01
-health: 100
+health: 150
 flying: true
 engineOffset: 5.5
 range: 140
+armor: 10
+commandLimit: 15
+itemCapacity: 40
+
+
+targetAir: true
 
 engineOffset: 4
 
 buildSpeed: 1
 weapons: [
   {
-    name: none
+    name: Missile
     y: 0
     x: 2
     reload: 14
     ejectEffect: casing1
     shootSound: shoot
     bullet: {
-      type: BasicBulletType
-      damage: 9
+      type: MissileBulletType
+      damage: 10
       speed: 2.75
       width: 6
       height: 8
@@ -29,11 +35,13 @@ weapons: [
       backColor: f3e97966
       lifetime: 45
       sprite: bullet
-      lightningColor: ffffff
-      lightning: 2
-      lightningLength: 4
-      lightningLengthRand: 3
-      lightningDamage: 4
+      
+      knockback: 0.7
+      homingPower: 0.5
+      homingRange: 80
+
+
+     
     }
   },
   {
@@ -57,7 +65,7 @@ research: {
     parent: air-factory
     requirements:
     [
-        {item: metaglass, amount: 75},
+        {item: meta-glass, amount: 75},
         {item: titanium, amount: 50},
         {item: silicon, amount: 100}
     ]
