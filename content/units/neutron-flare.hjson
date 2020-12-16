@@ -65,7 +65,7 @@ research: {
     parent: air-factory
     requirements:
     [
-        {item: meta-glass, amount: 75},
+        {item: metaglass, amount: 75},
         {item: titanium, amount: 50},
         {item: silicon, amount: 100}
     ]
