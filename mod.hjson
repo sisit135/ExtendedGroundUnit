@@ -1,6 +1,6 @@
 name: "extendedunit"
-displayName: "Extended unit Mod"
-author: "sisit135"
-description: "Mod"
+displayName: "Extended unit mod"
+author: "sisit135 + Passive engineer"
+description: "high maneuverability land unit"
 version: "1.0.0"
 minGameVersion: 117
