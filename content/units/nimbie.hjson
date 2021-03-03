@@ -46,12 +46,13 @@ weapons:[
     shootSound: explosion
     bullet:{
       //type: BombBulletType
-	  instantDisappear: true
+	  //instantDisappear: true
 	  //killShooter: true
+    damage: 20
 	  hitColor: c9a58f
       splashDamage: 120
       splashDamageRadius: 80
-	  range: 16
+	  range: 20
 	  collidesAir: true
 	  status: blasted
 	  statusDuration: 66
@@ -65,8 +66,8 @@ weapons:[
 	  fragBullet:{
         type: BombBulletType
         drag: 0.0125
-	    frontColor: b28768
-	    backColor: c9a58f
+	   
+
         width: 11
         height: 6
         speed: 1.85
@@ -74,8 +75,10 @@ weapons:[
         shrinkY: 0.36
         //sprite: 
         lifetime: 30
-        splashDamage: 70
-        splashDamageRadius: 40
+        splashDamage: 10
+        splashDamageRadius: 3.1
+         frontColor: b28768
+	      backColor: c9a58f
 		hitEffect: mine
 		despawnEffect: pulverizeSmall
 		tileDamageMultiplier: 0.16666666666

@@ -39,6 +39,14 @@ plans: [
             invisible-matter/1
         ]
         time: 1400
+    },
+    {
+        unit: nimble
+        requirements: [
+            silicon/30
+            titanium/10
+        ]
+        time: 1400
     }
 ]
 

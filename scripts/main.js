@@ -7,7 +7,7 @@ print("Start loading ExtendedGroundUnit.");
 //units
 require("units/nimbie")
 //blocks
-import "blocks/invisiblematter-maker";
+require("blocks/invisiblematter-maker");
 
 
 

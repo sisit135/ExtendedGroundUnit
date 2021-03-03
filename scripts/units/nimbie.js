@@ -14,3 +14,4 @@ SuiGroundT1.constructor = () => extend(UnitEntity, {
 register(SuiGroundT1);
 //SuiAirT1.ammoType = AmmoTypes.;
 Blocks.groundFactory.plans.add(new UnitFactory.UnitPlan(SuiGroundT1, 60 * 5, ItemStack.with(Items.silicon, 30, Items.titanium, 20)));
+print("Registered nimble.");
