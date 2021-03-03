@@ -5,7 +5,7 @@ print("Start loading ExtendedGroundUnit.");
 
 
 //units
-require("units/nimbie")
+require("units/nimble")
 //blocks
 require("blocks/invisiblematter-maker");
 
