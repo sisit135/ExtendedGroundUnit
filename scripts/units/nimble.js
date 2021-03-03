@@ -1,5 +1,5 @@
 const reg = require("UnitReg");
-const SuiGroundT1 = extendContent(UnitType, "nimbie", {
+const SuiGroundT1 = extendContent(UnitType, "nimble", {
 });
 SuiGroundT1.constructor = () => extend(UnitEntity, {
 	update(){
@@ -11,7 +11,7 @@ SuiGroundT1.constructor = () => extend(UnitEntity, {
 
 	classId: () => SuiGroundT1.classId
 });
-register(SuiGroundT1);
+reg(SuiGroundT1);
 //SuiAirT1.ammoType = AmmoTypes.;
 Blocks.groundFactory.plans.add(new UnitFactory.UnitPlan(SuiGroundT1, 60 * 5, ItemStack.with(Items.silicon, 30, Items.titanium, 20)));
 print("Registered nimble.");
