@@ -13,9 +13,9 @@ armor: 0
 range: 100
 itemCapacity: 35
 hitSize: 5
-rotateShooting: false
+rotateShooting: true
 lowAltitude: true
-destructibleWreck: false
+//destructibleWreck: false
 circleTarget: true
 immunities: [wet, tarred, sapped, sporeSlowed, corroded]
 engineOffset: 5
