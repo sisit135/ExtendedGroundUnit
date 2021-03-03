@@ -1,0 +1,101 @@
+localizedName: Nimble
+description: Fires a barrage of missiles
+commandLimit: 6
+speed: 2.0
+drag: 0.05
+accel: 1.0
+rotateSpeed: 4.5
+fallSpeed: 0.018
+//mineSpeed: 0
+//mineTier: 0
+health: 110
+armor: 0
+// detect enemy range
+range: 20
+itemCapacity: 35
+hitSize: 5
+//rotateShooting: true
+//lowAltitude: true
+//destructibleWreck: false
+//circleTarget: true
+immunities: [wet, tarred, sapped, sporeSlowed, corroded
+]
+engineOffset: 5
+engineSize: 2
+// to make it hover
+flying: false
+// exp
+hovering: true
+canHeal: false
+// Target
+targetAir: true	
+targetGround: true
+weapons: [
+  {
+    name: Missiles
+    
+    x: 0
+    y: 0
+    shootY: 0
+    recoil: 0
+    reload: 20
+    //shootCone: 360
+    //rotate: false
+    //mirror: false
+    //ignoreRotation: true
+    soundPitchMin: 3
+    soundPitchMax: 3
+    shootSound: explosion
+    bullet: {
+      //type: BombBulletType
+      type: MissileBulletType
+	    //instantDisappear: true
+      //killShooter: true
+      damage: 20
+      lifetime: 50
+	    hitColor: c9a58f
+      //splashDamage: 1
+      //splashDamageRadius: 80
+	    range: 20
+      //collidesAir: true
+	    status: blasted
+	    statusDuration: 66
+	    hitEffect: mineBig
+	    //hittable: false
+      //fragBullets: 12
+      //fragVelocityMin: 0.2
+      //fragLifeMin: 0.5
+      //fragVelocityMax: 1.25
+      //fragLifeMax: 1.75
+      //fragBullet:{
+      //type: BombBulletType
+      //drag: 0.0125
+      //width: 11
+      //height: 6
+      speed: 4.0
+      //shrinkX: 0.75
+      //shrinkY: 0.36
+      sprite: bullet
+      //lifetime: 30
+      //splashDamage: 10
+      //splashDamageRadius: 3.1
+      frontColor: b28768
+	      backColor: c9a58f
+		//hitEffect: mine
+		despawnEffect: pulverizeSmall
+		//tileDamageMultiplier: 0.16666666666
+		reflectable: false
+    //hittable: false
+    //collidesAir: true
+    }
+  }
+}
+]
+// done
+research: {
+  parent: horizon
+  requirements: [
+      silicon/3000
+      titanium/1500
+]
+}
