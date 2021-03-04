@@ -1,6 +1,6 @@
-name: "extendedunit"
-displayName: "Extended unit mod"
+name: "extendedgroundunit"
+displayName: "Extended ground unit mod"
 author: "sisit135 + passive engineer"
 description: "High maneuverability land unit"
 version: "1.0.0"
-minGameVersion: 117
+minGameVersion: 120
